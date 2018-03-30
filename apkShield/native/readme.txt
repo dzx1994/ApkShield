@@ -1,0 +1,1 @@
+在此目录进行 ndk-build,修改jni/Android.mk 中的 LOCAL_CFLAGS    += -DDEBUG，可控住debug版本和release版本的生成，同时也支持ollvm混淆
