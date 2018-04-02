@@ -64,7 +64,7 @@ artifacts {
 
 jar {
     manifest {
-        attributes "Implementation-Title": "wKnightShield"
+        attributes "Implementation-Title": "ApkShield"
         attributes 'Main-Class': 'com.wknight.safe.shield.Main'
         attributes "Class-Path": configurations.runtime.collect { "libs/" + it.getName() }.join(' ')
     }
