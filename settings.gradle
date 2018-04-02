@@ -2,9 +2,7 @@ rootProject.name = 'ApkShield'
 
 include 'apkShield'
 
-include 'dexreader'
-
 include 'axml'
 
-include 'SignTool'
+
 
